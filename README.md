@@ -14,6 +14,8 @@ As I  have decided to hold off on work on this ruby implementation, the interest
 
 Running in the terminal it is possible to load a csv file of fume points (combinations listed in rows, herbs comma-separated).
 
+How? Ruby 2.3 must be installed and it can be run in IRB by typing 'irb -r ./src/player.rb' to start it off. Create a player, create fumeolgy points, update records, save to file and load when needed.
+
 It is also possible to add new fume points, to display them, and to add them to the record.
 
 This record can be saved to a new file, or added (warning, this is where this implementation stopped) to an existing file.
