@@ -43,7 +43,9 @@ class Herbs
   # It will return nil when no match is found
   def self.correct_case(herb)
     Herbs.names.each do |item|
-      if herb.downcase == item.downcase
+      if herb.class != String
+        return nil
+      elsif herb.downcase == item.downcase
         return item
       end
     end

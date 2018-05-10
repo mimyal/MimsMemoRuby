@@ -30,6 +30,7 @@ class Player
     return point
   end
 
+  # THIS IS FAULTY?
   def update_record_from_list_of_herbs(list_of_names)
     list_of_names.each do |herb_list|
       point = nil

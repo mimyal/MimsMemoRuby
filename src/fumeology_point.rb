@@ -20,7 +20,7 @@ class FumeologyPoint
 
   def add(herb) # herb name string
     begin
-      Herb.new(Herbs.correct_case(herb))
+      Herbs.correct_case(herb)
     rescue Exception
       # Will return without adding the new herb unless found in Herbs.
       return @herb_combination
